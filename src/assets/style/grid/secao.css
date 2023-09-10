@@ -1,0 +1,25 @@
+.secao {
+    display: grid;
+}
+
+.secao-horizontal {
+    display: grid;
+    grid-template-rows: 120px auto;
+}
+
+.secao-horizontal .cartao {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1.25rem;
+}
+
+
+.secao-vertical {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 2fr;
+}
+
+.secao-vertical .secao__cartoes {
+    grid-column: 1 / 3;
+}
