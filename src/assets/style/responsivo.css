@@ -21,7 +21,7 @@
 
     .secao__cartoes {
         row-gap: .5rem;
-        column-gap: 1rem;
+        --gap-coluna: 1rem;
     }
 
     .secao-horizontal .cartao {
@@ -74,7 +74,7 @@
     }
 
     .secao__cartoes {
-        column-gap: 1.5rem;
+        --gap-coluna: 1.5rem;
     }
 
     .secao-horizontal .cartao__titulo {
